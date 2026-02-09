@@ -1,0 +1,9 @@
+package trail;
+//dynamic poly
+public class Cat extends Animal{
+
+	public void speak() {
+		System.out.println("the cat says meow");
+	}
+
+}
