@@ -36,6 +36,7 @@ public class RockPaperScissors {
 		bestofthree++;
 		}
 		if((score==2||score==3)||(score==1 && ((tie==1)||(tie==2)) )) System.out.println("You win !!!"); 
+		else if(tie==3)System.out.println("Draw the game");
 		else System.out.println("You lose"); 
 		System.out.println("Do you want to play again (yes/no) ");
 		playagain=scanner.nextLine().toLowerCase();
